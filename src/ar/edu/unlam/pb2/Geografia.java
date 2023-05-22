@@ -1,8 +1,8 @@
-package ar.edu.unlam.pb3;
+package ar.edu.unlam.pb2;
 
-public class Historia extends Libro implements Fotocopiable {
+public class Geografia extends Libro implements Fotocopiable {
 
-	public Historia(Integer cod, String nombre, String autor) {
+	public Geografia(Integer cod, String nombre, String autor) {
 		super(cod, nombre, autor);
 	}
 
